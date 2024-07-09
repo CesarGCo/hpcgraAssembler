@@ -1,0 +1,813 @@
+{
+    "data_width": 16,
+    "conf_bus_width": 8,
+    "axi_bus_data_width": 64,
+    "pe": [
+        {
+            "id": 0,
+            "num_istream": 2,
+            "num_ostream": 1,
+            "neighbors": [
+                6,
+                1
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                    5,
+                    5,
+                    5,
+                    5,
+                    5,
+                    5
+            ],
+            "isa": [
+                "macc",
+                "add",
+                "sub"
+            ]
+        },
+        {
+            "id": 1,
+            "num_istream": 1,
+            "num_ostream": 0,
+            "neighbors": [
+                0,
+                7,
+                2
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 2,
+            "num_istream": 1,
+            "num_ostream": 0,
+            "neighbors": [
+                1,
+                8,
+                3
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 3,
+            "num_istream": 1,
+            "num_ostream": 0,
+            "neighbors": [
+                2,
+                9,
+                4
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 4,
+            "num_istream": 1,
+            "num_ostream": 0,
+            "neighbors": [
+                3,
+                10,
+                5
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 5,
+            "num_istream": 1,
+            "num_ostream": 0,
+            "neighbors": [
+                4,
+                11
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 6,
+            "num_istream": 1,
+            "num_ostream": 1,
+            "neighbors": [
+                0,
+                12,
+                7
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 7,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                1,
+                6,
+                13,
+                8
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 8,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                2,
+                7,
+                14,
+                9
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 9,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                3,
+                8,
+                15,
+                10
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 10,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                4,
+                9,
+                16,
+                11
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 11,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                5,
+                10,
+                17
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 12,
+            "num_istream": 1,
+            "num_ostream": 1,
+            "neighbors": [
+                6,
+                18,
+                13
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 13,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                7,
+                12,
+                19,
+                14
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 14,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                8,
+                13,
+                20,
+                15
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 15,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                9,
+                14,
+                21,
+                16
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 16,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                10,
+                15,
+                22,
+                17
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 17,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                11,
+                16,
+                23
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 18,
+            "num_istream": 1,
+            "num_ostream": 1,
+            "neighbors": [
+                12,
+                24,
+                19
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 19,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                13,
+                18,
+                25,
+                20
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 20,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                14,
+                19,
+                26,
+                21
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 21,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                15,
+                20,
+                27,
+                22
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 22,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                16,
+                21,
+                28,
+                23
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 23,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                17,
+                22,
+                29
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 24,
+            "num_istream": 1,
+            "num_ostream": 1,
+            "neighbors": [
+                18,
+                30,
+                25
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 25,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                19,
+                24,
+                31,
+                26
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 26,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                20,
+                25,
+                32,
+                27
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 27,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                21,
+                26,
+                33,
+                28
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 28,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                22,
+                27,
+                34,
+                29
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 29,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                23,
+                28,
+                35
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 30,
+            "num_istream": 1,
+            "num_ostream": 1,
+            "neighbors": [
+                24,
+                31
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 31,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                25,
+                30,
+                32
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 32,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                26,
+                31,
+                33
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 33,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                27,
+                32,
+                34
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 34,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                28,
+                33,
+                35
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        },
+        {
+            "id": 35,
+            "num_istream": 0,
+            "num_ostream": 0,
+            "neighbors": [
+                29,
+                34
+            ],
+            "routes": 3,
+            "elastic_queue": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "isa": [
+                "macc"
+            ]
+        }
+    ]
+}
